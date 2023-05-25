@@ -17,4 +17,4 @@ By combining these three microservices, our distributed system provides a compre
   <li>MySQL</li>
 </ul>
 <h1>Technical Architecture</h1>
-<img src=""/>
+<img src="archi2.PNG"/>
