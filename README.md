@@ -18,3 +18,5 @@ By combining these three microservices, our distributed system provides a compre
 </ul>
 <h1>Technical Architecture</h1>
 <img src="archi2.PNG"/>
+<h2>Class Diagram</h2>
+<img src="archi2.PNG"/>
