@@ -24,8 +24,29 @@ By combining these three microservices, our distributed system provides a compre
 <h3>Registration Service</h3>
 <ul>
   <li>Structure : </li>
-  <img src="registration.PNG"/>
-  <li>Test with </li>
+  <li>Test with Postman</li>
+  <b>Get all owners</b>
+  <img src="/tests/allOwners.PNG"/>
+  <b>Get owner by id</b>
+  <img src="/tests/ownerById.PNG"/>
+  <b>Get all Vehicles</b>
+  <img src="/tests/allVehicles.PNG"/>
+  <b>Get vehicle by id</b>
+  <img src="/tests/vehicleById.PNG"/>
+  <li>Test with GraphQl</li>
+  <b>Get All owners</b>
+  <img src="/tests/OwnersGrapgql.PNG"/>
+  <b>Get all Vehicles</b>
+  <img src="/tests/vehiclesGrapgql.PNG"/>
+  <b>get Vehicle by id</b>
+  <img src="/tests/VByIdGrapgql.PNG"/>
+  <b>Delete Vehicle</b>
+   <img src="/tests/deleteVehicle.PNG"/>
+</ul>
+<h3>Radar Service</h3>
+<ul>
+  <li>Structre</li>
+  <img src="radar.PNG"/>
 </ul>
 
 
