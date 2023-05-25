@@ -19,4 +19,32 @@ By combining these three microservices, our distributed system provides a compre
 <h1>Technical Architecture</h1>
 <img src="archi2.PNG"/>
 <h2>Class Diagram</h2>
-<img src="archi2.PNG"/>
+<img src="class diagram.PNG"/>
+<h1>Part 1 : backend</h1>
+<h3>Registration Service</h3>
+<ul>
+  <li>Structure : </li>
+  <img src="registration.PNG"/>
+  <li>Test with </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
