@@ -5,8 +5,9 @@
   <li><a href="#tech">Technologies used</a></li>
   <li><a href="#archi">Technical Architecture</a></li>
   <li><a href="#diagram">Class Diagram</a></li>
-  <li><a href="#part1">Part 1 : backend</a></li>
-  <li><a href="#registration">Registration Service</a>
+  <li><a href="#part1">Part 1 : backend</a>
+    <ul>
+    <li><a href="#registration">Registration Service</a>
     <ul>
       <li><a href="#strReg">Structure</a></li>
        <li><a href="#postman">Test with Postman</a></li>
@@ -40,6 +41,8 @@
       <li><a href="#infraStr">Structure</a></li>
     </ul>
   </li>
+    </ul>
+  </li>
   <li><a  href="#conclusion">Conclusion</a></li>
 </ul>
 <h1 id="intro">Introduction</h1>
@@ -67,7 +70,7 @@ By combining these three microservices, our distributed system provides a compre
 <h3 id="registration">Registration Service</h3>
 <ul>
   <li id="strReg">Structure : </li>
-  <img src="/tests/registration.PNG"/>
+  <img src="registration.PNG"/>
   <li id="postman">Test with Postman</li>
   <b>Get all owners</b>
   <img src="/tests/allOwners.PNG"/>
