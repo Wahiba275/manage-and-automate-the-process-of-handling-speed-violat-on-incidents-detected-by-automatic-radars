@@ -78,26 +78,26 @@ By combining these three microservices, our distributed system provides a compre
    <img src="/tests/deleteVehicle.PNG"/>
   <li id="grpc">Test avec BloomGRPC </li>
    <b>Add owner</b>
-  <img src="/Tests2/addOwnerGrpc.PNG"/>
+  <img src="/Test2/addOwnerGrpc.PNG"/>
    <b>get owner by Id</b>
-  <img src="/Tests2/getOwnerGrpc.PNG"/>
+  <img src="/Test2/getOwnerGrpc.PNG"/>
    <b>Modify an Owner</b>
-  <img src="/Tests2/modifyOwner.PNG"/>
+  <img src="/Test2/modifyOwner.PNG"/>
    <b>Delete Owner</b>
-  <img src="/Tests2/DeleteOwner.PNG"/>
+  <img src="/Test2/DeleteOwner.PNG"/>
    <b>Add Vehicle</b>
-  <img src="/Tests2/addVehiclGrpce.PNG"/>
+  <img src="/Test2/addVehiclGrpce.PNG"/>
    <b>Get Vehicle by Id</b>
-  <img src="/Tests2/getVehicle.PNG"/>
+  <img src="/Test2/getVehicle.PNG"/>
   <li id="soap">Test avec Soap </li> 
   <b>Le fichier WSDL</b>
-  <img src="/Tests2/wsdl.PNG"/>
+  <img src="/Test2/wsdl.PNG"/>
   <b>List of Owners</b>
-  <img src="/Tests2/ownersSoap.PNG"/>
+  <img src="/Test2/ownersSoap.PNG"/>
   <b>getOwnerSoap</b>
-  <img src="/Tests2/getOwnerSoap.PNG"/>
+  <img src="/Test2/getOwnerSoap.PNG"/>
   <b>List of Vehicles</b>
-  <img src="/Tests2/VehicleSoap.PNG"/> 
+  <img src="/Test2/VehicleSoap.PNG"/> 
 </ul>
 <h3 id="radar">Radar Service</h3>
 <ul>
