@@ -27,9 +27,9 @@ By combining these three microservices, our distributed system provides a compre
   <li>Test with Postman</li>
   <b>Get all owners</b>
   <img src="/tests/allOwners.PNG"/>
-  <b>Get owner by id</b>
+  <p><b>Get owner by id</b></p>
   <img src="/tests/ownerById.PNG"/>
-  <b>Get all Vehicles</b>
+  <p><b>Get all Vehicles</b></p>
   <img src="/tests/allVehicles.PNG"/>
   <b>Get vehicle by id</b>
   <img src="/tests/vehicleById.PNG"/>
@@ -47,6 +47,17 @@ By combining these three microservices, our distributed system provides a compre
 <ul>
   <li>Structre</li>
   <img src="radar.PNG"/>
+</ul>
+<h3>Road Radar Service</h3>
+<ul>
+  <li>Structre</li>
+  <img src="road.PNG"/>
+</ul>
+
+<h3>Infraction Service</h3>
+<ul>
+  <li>Structre</li>
+  <img src="infraction.PNG"/>
 </ul>
 
 
