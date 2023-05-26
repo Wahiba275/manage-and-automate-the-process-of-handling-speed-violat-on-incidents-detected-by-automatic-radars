@@ -11,9 +11,19 @@
       <li><a href="#strReg">Structure</a></li>
        <li><a href="#postman">Test with Postman</a></li>
        <li><a href="#graphql">Test with GraphQl</a></li>
-       <li><a href="#grpc">Test avec BloomGRPC </a></li>
-       <li><a href="#soap">Test avec Soap</a></li>
     </ul>
+  <li><a href="#regGrpc">Registration service with GRPC </a>
+  <ul>
+      <li><a href="#strRegsoap">Structure</a></li>
+      <li><a href="#grpc">Test avec BloomGRPC </a></li>
+    </ul>
+  </li>
+  <li><a href="regSoap">Registration Service with SOAP</a>
+    <ul>
+      <li><a href="#strSoap">Structure</a></li>
+      <li><a href="#soap">Test avec Soap</a></li>
+    </ul>               
+   </li>
   </li>
   <li><a href="#radar">Radar Service</a>
     <ul>
@@ -76,8 +86,9 @@ By combining these three microservices, our distributed system provides a compre
   <img src="/tests/VByIdGrapgql.PNG"/>
   <b>Delete Vehicle</b>
    <img src="/tests/deleteVehicle.PNG"/>
-  <h3 id="registration">Registration Service with GRPC</h3>
-  <li id="strGRPC">Structure </li>
+  <h3 id="regGrpc">Registration Service with GRPC</h3>
+  <li id="strRegsoap">Structure </li>
+   <img src="grpc.PNG"/>
   <li id="grpc">Test avec BloomGRPC </li>
    <b>Add owner</b>
   <img src="/Test2/addOwnerGrpc.PNG"/>
@@ -91,10 +102,10 @@ By combining these three microservices, our distributed system provides a compre
   <img src="/Test2/addVehiclGrpce.PNG"/>
    <b>Get Vehicle by Id</b>
   <img src="/Test2/getVehicle.PNG"/>
-   <h3 id="registration">Registration Service with SOAP</h3>
+   <h3 id="regSoap">Registration Service with SOAP</h3>
   <li id="strSoap">Structure </li>
    <img src="/Test2/registrationSoap.PNG"/>
-  <li id="grpc">Test avec Soap </li>
+  <li id="soap">Test avec Soap </li>
   <b>Le fichier WSDL</b>
   <img src="/Test2/wsdl.PNG"/>
   <b>List of Owners</b>
