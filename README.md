@@ -102,7 +102,7 @@ By combining these three microservices, our distributed system provides a compre
    <b>Delete Owner</b>
   <img src="/Test2/DeleteOwner.PNG"/>
    <b>Add Vehicle</b>
-  <img src="/Test2/addVehiclGrpce.PNG"/>
+  <img src="/Test2/addVehiclesGrpc.PNG"/>
    <b>Get Vehicle by Id</b>
   <img src="/Test2/getVehicle.PNG"/>
    <h3 id="regSoap">Registration Service with SOAP</h3>
@@ -128,7 +128,6 @@ By combining these three microservices, our distributed system provides a compre
   <li id="roadStr">Structre</li>
   <img src="road.PNG"/>
 </ul>
-
 <h3 href="infra">Infraction Service</h3>
 <ul>
   <li id="infraStr">Structre</li>
