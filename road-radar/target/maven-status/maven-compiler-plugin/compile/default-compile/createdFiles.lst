@@ -1,0 +1,5 @@
+com\example\roadradar\models\Radar.class
+com\example\roadradar\models\NewData.class
+com\example\roadradar\RoadRadarApplication.class
+com\example\roadradar\models\Vehicle.class
+com\example\roadradar\RadarDetectionService.class
