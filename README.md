@@ -57,7 +57,7 @@ By combining these three microservices, our distributed system provides a compre
 <h3 id="registration">Registration Service</h3>
 <ul>
   <li id="strReg">Structure : </li>
-  <img src="/tests/registrationSoap.PNG"/>
+  <img src="/tests/registration.PNG"/>
   <li id="postman">Test with Postman</li>
   <b>Get all owners</b>
   <img src="/tests/allOwners.PNG"/>
@@ -76,6 +76,8 @@ By combining these three microservices, our distributed system provides a compre
   <img src="/tests/VByIdGrapgql.PNG"/>
   <b>Delete Vehicle</b>
    <img src="/tests/deleteVehicle.PNG"/>
+  <h3 id="registration">Registration Service with GRPC</h3>
+  <li id="strGRPC">Structure </li>
   <li id="grpc">Test avec BloomGRPC </li>
    <b>Add owner</b>
   <img src="/Test2/addOwnerGrpc.PNG"/>
@@ -89,7 +91,10 @@ By combining these three microservices, our distributed system provides a compre
   <img src="/Test2/addVehiclGrpce.PNG"/>
    <b>Get Vehicle by Id</b>
   <img src="/Test2/getVehicle.PNG"/>
-  <li id="soap">Test avec Soap </li> 
+   <h3 id="registration">Registration Service with SOAP</h3>
+  <li id="strSoap">Structure </li>
+   <img src="/Test2/registrationSoap.PNG"/>
+  <li id="grpc">Test avec Soap </li>
   <b>Le fichier WSDL</b>
   <img src="/Test2/wsdl.PNG"/>
   <b>List of Owners</b>
