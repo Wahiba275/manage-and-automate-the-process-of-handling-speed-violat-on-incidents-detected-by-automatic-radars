@@ -1,5 +1,5 @@
 # manage-and-automate-the-process-of-handling-speed-violat-on-incidents-detected-by-automatic-radars
-<h1>Table o content</h1>
+<h1>Table of content</h1>
 <ul>
   <li><a href="#intro">Introduction</a></li>
   <li><a href="#tech">Technologies used</a></li>
@@ -16,7 +16,7 @@
   <li><a href="#regGrpc">Registration service with GRPC </a>
   <ul>
       <li><a href="#strRegsoap">Structure</a></li>
-      <li><a href="#grpc">Test avec BloomGRPC </a></li>
+      <li><a href="#grpc">Test with BloomGRPC </a></li>
     </ul>
   </li>
   <li><a href="regSoap">Registration Service with SOAP</a>
