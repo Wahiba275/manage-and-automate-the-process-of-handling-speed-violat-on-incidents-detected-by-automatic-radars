@@ -29,6 +29,7 @@
   <li><a href="#radar">Radar Service</a>
     <ul>
       <li><a href="strRadar">Structure</a></li>
+      <li><a href="radarPostman">Test with Postman</a></li>
     </ul>
   </li>
   <li><a href="#road">Road Radar Service</a>
@@ -41,6 +42,11 @@
       <li><a href="#infraStr">Structure</a></li>
     </ul>
   </li>
+  <li><a  href="#eurikaServer">Eureka Server</a>
+ <ul>
+      <li><a href="#instances">Instances registred with Eureka</a></li>
+    </ul>
+ </li>
     </ul>
   </li>
   <li><a  href="#conclusion">Conclusion</a></li>
@@ -122,6 +128,18 @@ By combining these three microservices, our distributed system provides a compre
 <ul>
   <li id="strRadar">Structre</li>
   <img src="radar.PNG"/>
+  <li id="radarPostman">Test with postman
+     <ul>
+       <b>Get all radars</b>
+       <img src="/test2/allRadars.PNG"/> 
+       <b>Get a radar by it's Id</b>
+       <img src="/test2/getRadar.PNG"/> 
+       <b>Delete a radar</b>
+       <img src="/test2/deleteRadar.PNG"/> 
+       <b>Check if the radar is deleted</b>
+       <img src="/test2/Verifying.PNG"/> 
+     </ul>
+  </li>
 </ul>
 <h3 id="road">Road Radar Service</h3>
 <ul>
@@ -133,6 +151,12 @@ By combining these three microservices, our distributed system provides a compre
   <li id="infraStr">Structre</li>
   <img src="infraction.PNG"/>
 </ul>
+<h3 id="eurikaServer">Eureka Server</h3>
+<p>Eureka is a service discovery framework developed by Netflix for building resilient and highly available microservices architectures. In a distributed system where services are deployed across multiple instances or machines, Eureka allows services to dynamically register themselves with the Eureka server and discover other services that they depend on. It provides a centralized registry where services can publish their availability and retrieve information about other services in the system. This enables automatic load balancing, failover, and scalability in a dynamic and distributed environment, making it easier to build and maintain complex microservices architectures.</p>
+<img src="/test2/eurikaServer.PNG"/> 
+<h4 id="instances">Instances registered with Eureka</h4>
+According to the provided picture, four instances have been registered with Eureka.
+<img src="/test2/instances.PNG"/> 
 <h1 id="conclusion">Conclusion</h1>
 <p>In conclusion, the goal is to create a distributed system based on microservices that automates the management of speeding violations detected by automatic radars. The system comprises three microservices: radar management, vehicle registration, and infringement management. Each microservice handles specific functionalities, such as managing radar details, vehicle information, and infringement records. Additionally, the system allows for posting speeding violations and enables owners to view their respective infringements. This system provides an efficient and streamlined approach to handle the entire process of managing and automating speeding violation infractions.</p>
 
