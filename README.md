@@ -156,7 +156,7 @@ By combining these three microservices, our distributed system provides a compre
 <img src="/test2/eurikaServer.PNG"/> 
 <h4 id="instances">Instances registered with Eureka</h4>
 According to the provided picture, four instances have been registered with Eureka.
-<img src="/test2/instances.PNG"/> 
+<img src="/test2/Instances.PNG"/> 
 <h1 id="conclusion">Conclusion</h1>
 <p>In conclusion, the goal is to create a distributed system based on microservices that automates the management of speeding violations detected by automatic radars. The system comprises three microservices: radar management, vehicle registration, and infringement management. Each microservice handles specific functionalities, such as managing radar details, vehicle information, and infringement records. Additionally, the system allows for posting speeding violations and enables owners to view their respective infringements. This system provides an efficient and streamlined approach to handle the entire process of managing and automating speeding violation infractions.</p>
 
